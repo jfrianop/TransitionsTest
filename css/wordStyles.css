@@ -1,0 +1,22 @@
+body{
+    font-family: 'Satisfy', cursive;
+    font-size: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(96,98,116);
+background: radial-gradient(circle, rgba(96,98,116,1) 0%, rgba(118,177,165,1) 100%);
+}
+
+.box{
+    margin-top: 10%;
+    width: 50%;
+    padding: 40px;
+    border-radius:  7px;
+    box-shadow:5px 5px 10px rgba(84,84,74,0.25);
+    background: radial-gradient(circle, rgb(255, 166, 0) 0%, rgb(231, 221, 163) 100%);
+    transform: rotate(-5deg);
+}
+.text{
+    text-shadow: 2px 2px 5px #0084ff6c;
+}

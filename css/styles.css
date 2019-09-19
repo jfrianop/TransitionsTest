@@ -1,0 +1,90 @@
+.box{
+    width: 220px;
+    height: 640px;
+    background-color: black;
+    margin: 0 auto;
+    padding: 10px;
+    display: grid;
+    grid-area: 1fr 1fr 1fr/100%;
+    gap: 10px;
+}
+.light{
+    background-color: white;
+    border-radius: 50%;
+}
+.red{
+    animation-duration: 12s;
+    animation-name: redOff;
+    animation-iteration-count: infinite;
+}
+.yellow{
+    animation-duration: 12s;
+    animation-name: yellowOff;
+    animation-iteration-count: infinite;
+}
+.green{
+    animation-duration: 12s;
+    animation-name: greenOff;
+    animation-iteration-count: infinite;
+}
+@keyframes redOff{
+    0% {
+        background-color: rgb(255, 0, 0);
+    }
+    40% {
+        background-color: rgb(255, 0, 0);
+    }
+    42% {
+        background-color: rgb(73, 1, 1);
+    }
+    100% {
+        background-color: rgb(73, 1, 1);
+    }
+}
+@keyframes greenOff {
+    0% {
+        background-color: rgb(3, 90, 3);
+    }
+    48% {
+        background-color: rgb(3, 90, 3);
+    }
+    50% {
+        background-color: rgb(7, 197, 7);
+    }
+    88% {
+        background-color: rgb(7, 197, 7);
+    }
+    90% {
+        background-color: rgb(3, 90, 3);
+    }
+    100% {
+        background-color: rgb(3, 90, 3);
+    }
+}
+@keyframes yellowOff {
+    0% {
+        background-color: rgb(158, 158, 50);
+    }
+    40% {
+        background-color: rgb(158, 158, 50);
+    }
+    42% {
+        background-color: yellow;
+    }
+    48% {
+        background-color: yellow;
+    }
+    50% {
+        background-color: rgb(158, 158, 50);
+    }
+    88% {
+        background-color: rgb(158, 158, 50);
+    }
+    90% {
+        background-color: yellow;
+    }
+    100% {
+        background-color: yellow;
+    }
+​
+}
